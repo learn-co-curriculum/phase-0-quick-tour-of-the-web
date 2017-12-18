@@ -23,8 +23,8 @@ In the video below our dean, Avi Flombaum will give us a short introduction to t
 [Slides](https://docs.google.com/presentation/d/1m6SPR13MdfF7YRhfx7HtvkOmFnrRyVQOEFgWhI8Bc0I/edit?usp=sharing)
 
 ## Resources
-[World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web)
-[HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-[An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-[Static vs Dynamic](https://noahveltman.com/static-dynamic/)
-[Client Server Model - Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+- [World Wide Web - Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)
+- [HTML basics - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [An overview of HTTP - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- [Static vs Dynamic](https://noahveltman.com/static-dynamic/)
+- [Client Server Model - Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
