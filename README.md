@@ -6,7 +6,7 @@ Why did we choose to become developers? There are likely hundreds of reasons, bu
 
 You spent the last few weeks or months learning a programming language. This section of the course is an introduction to your canvas, the web! This is the place where your creations will come to live, grow and evolve. 
 
-Welcome to the web, the largest canvas in the world. Roughly 40% of the world population has access to the web, and insanely dedicated people are at work every day to grow that percentage (that could be you!). 
+Welcome to the web, the largest canvas in the world. Roughly 40% of the world's population has access to the web, and insanely dedicated people are at work every day to grow that percentage (that could be you!). 
 
 ## The Web In A Nutshell
 
