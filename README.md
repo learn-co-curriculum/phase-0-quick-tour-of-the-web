@@ -11,7 +11,7 @@ To orient you in these first steps of your study of HTML and web programming we
 want to give a broad overview of the web and how it works in the broadest
 terms. While you might have heard "web," and "internet" and "server" in many
 different contexts and places over the years, it's possible that you've never
-build a cohesive model in your mind that interlinks these problems together.
+built a cohesive model in your mind that interlinks these problems together.
 This lesson hopes to help stitch that all together.
 
 In this lesson we'll go over the essential characteristics of how the web
@@ -28,7 +28,7 @@ works.
 ## Define "internet"
 
 The internet, in its most general formulation is a network of networks. In
-history it was likely that a specific team in an office might networrk several
+history it was likely that a specific team in an office might network several
 computers together. Due to technical and engineering limitations, network cable
 wouldn't let computers be more than a few dozen meters apart.
 
@@ -40,7 +40,7 @@ Internet. It was upon this "The Internet" that "The Web" was built.
 
 Here in the first quarter of the 21st century, however, "internet" has ceased
 to be a proper noun as the idea of "internets (of things, of cryptocurrencies)"
-has supplated the idea of a singular "The Internet."
+has supplanted the idea of a singular "The Internet."
 
 For purposes of this tutorial "the internet" refers to the global network which
 allows (effectively) any computer to find any other computer.
@@ -49,7 +49,7 @@ allows (effectively) any computer to find any other computer.
 
 All machines on the internet are computers. For ease of discussion, we're going
 to discuss them in two "roles:" client and server. Historically a "server"
-would be a larger, more powerful comptuer with more memory, bigger hard drives,
+would be a larger, more powerful computer with more memory, bigger hard drives,
 and more computer chips. But today "server" roles can be handled quite well by
 Arduino devices no bigger than a credit card! Nevertheless, in diagrams and on
 whiteboards they tend to be drawn as large "tower" style computers.
@@ -86,7 +86,7 @@ Similarly, when you buy that bottle of water, the (lightweight) client says
 
 Now, at the end of the sales day, the management team would like to do some
 analytics about how successful they were that day. They could go to each client
-checkstand determine its revenue for the day and which departments contributed
+computer, determine its revenue for the day and which departments contributed
 to that number, but on a cheap client machine that process would be
 s..l...o.....w.
 
