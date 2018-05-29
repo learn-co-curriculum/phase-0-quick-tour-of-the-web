@@ -27,16 +27,20 @@ works.
 
 ## Define "internet"
 
-The internet, in its most general formulation is a network of networks. In
+The internet, in its most general formulation, is a network of networks. In
 history it was likely that a specific team in an office might network several
 computers together. Due to technical and engineering limitations, network cable
 wouldn't let computers be more than a few dozen meters apart.
 
-Eventually machinery and research allowed small office teams to "network" with
-each other. Eventually teams "inter-networked" and then floors and then
-buildings, and then campuses, then military defense sites, etc. such that one
-absolute "backbone" inter-network came to name the entire system: **The**
-Internet. It was upon this "The Internet" that "The Web" was built.
+Eventually improved technology allowed small networks to "inter"-"network"
+their with each other. This was typically called a "Local Area Network" or LAN.
+Eventually we found technology that made internetworking LANs possible, they
+could be made into "Wide Area Networks" or WANs. Technology for internetworking
+WANs was difficult and slow to develop, but eventually a backbone called "The
+Internet" was created which encompassed all of its constituent WANs and their
+constituent LANs. This abstract idea bore the name **The Internet**.
+
+It was upon this "The Internet" that "The Web" was built.
 
 Here in the first quarter of the 21st century, however, "internet" has ceased
 to be a proper noun as the idea of "internets (of things, of cryptocurrencies)"
@@ -52,46 +56,50 @@ to discuss them in two "roles:" client and server. Historically a "server"
 would be a larger, more powerful computer with more memory, bigger hard drives,
 and more computer chips. But today "server" roles can be handled quite well by
 Arduino devices no bigger than a credit card! Nevertheless, in diagrams and on
-whiteboards they tend to be drawn as large "tower" style computers.
+whiteboards they tend to be drawn as large "tower-style" computers.
 
 Regardless of its size, a "server" has the responsibility of arranging the data
 that is presented to the "client." It's because of this "arranging" being
 computationally demanding that servers have tended to have extra resources.
 
-## Define "client" role
-
-A computer fulfilling a client has the responsibility of presenting the data
-that is sent from the server. Historically, these machines could be more
-lightly equipped. You'll generally see them drawn in diagrams or on whiteboards
-as laptops.
-
-The server displays data that is provided to it by the server. A verb that's
-commonly used is "render" as in, "The client _renders_ data provided by the
-server."
-
-## Client / Server Example
-
 Historically computers were very expensive and well-appointed servers were
 very, very expensive. As such, when possible, it was more economical for
 servers to do heavy processing and for the clients to request updates.
 
-Imagine a grocery store check-out line.
+## Define "client" role
+
+A computer fulfilling a client role has the responsibility of presenting the
+data that is sent from the server. Historically, these machines could be more
+lightly equipped (and thus cheaper). You'll generally see them drawn in
+diagrams or on whiteboards as laptops.
+
+The _client_ displays data that is provided to it by the _server_. A verb
+that's commonly used is "render" as in, "The client _renders_ data provided by
+the server." That is, it only displays the server's data and any change to the
+data has to be done _by the server_, caused by a _request_ from the _client_.
+
+## Client / Server Example
+
+Let's take a moment to consider client / server in a common scenario: the
+supermarket.
 
 If you ask the cashier for the price of a bottle of water, they can look it up
-for you. But their client computer's "source of truth" on the price is found by
-"asking" or "sending a request" to the _server_.
+for you. But their client computer's "source of truth" on the price lives on
+the server. The _client_ must request this information by "asking" or "sending
+a request" to the _server_.
 
 Similarly, when you buy that bottle of water, the (lightweight) client says
-"Sold a bottle of water!" to a server.
+"Sold a bottle of water!" to a server. The server, in turn, updates its
+inventory record to show `-1` water bottle.
 
 Now, at the end of the sales day, the management team would like to do some
-analytics about how successful they were that day. They could go to each client
-computer, determine its revenue for the day and which departments contributed
-to that number, but on a cheap client machine that process would be
-s..l...o.....w.
+analytics about how profitable they were that day. They _could_ go to each
+client computer, determine its revenue for the day and which departments
+contributed to that number, but on a cheap client machine that process would be
+s..l...o.....w &mdash; like trying to play a PS4 game on an iPhone!
 
-But if each client computer merely logged its actions to the server by sending
-requests, the management could ask that high-power machine to print out
+_However_ if each client computer merely logged its actions to the server by
+sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
 their IT architecture on this model known as "the client / server" model.
 
@@ -99,20 +107,20 @@ their IT architecture on this model known as "the client / server" model.
 
 The web was developed under a client server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
-were installed on high-power _servers_. Thus web clients running _browser_
-software would send an request for a web page and the server would return the
-web page.
+were installed on high-power _servers_. Thus web _clients_ running _browser_
+software were created that would send an _request_ for a web page and the
+server would return the web page.
 
-The specification on how _clients_ and _servers_ ask and return data is called
-HTTP (HyperText Transfer Protocol). This is why URLs start with `http://`,
-you're telling the browser: "Browser, act like a client and use the HTTP
-standard to talk to `flatironschool.com`." The browser sends a request that
-says something like:
+The specification on how _clients_ and _servers_ interact is called HTTP
+(HyperText Transfer Protocol). This is why URLs start with `http://`: you're
+telling the browser: "Browser, act like a client and use the HTTP standard to
+talk to `flatironschool.com` and find a file called `index.html`." The browser
+expresses this wish by transmitting a message that looks like:
 
 `GET flatironschool.com /index.html`
 
 Here it asks `flatironschool.com` for an HTML file called `index`. We'll
-explore this much more in subsequent lessons!
+explore this _much_ more in subsequent lessons!
 
 In return, the _server_ returns...HTML that's contained in the `index.html`
 file.
@@ -136,10 +144,12 @@ _client_. The client then receives the raw HTML. It looks something like this:
 ```
 
 Obviously, this is _not_ what you see when you visit
-[http://www.metmuseum.org](http://www.metmuseum.org). The secret comes back in
-with that special verb _render_. Your _client's_ browser _renders_ the HTML and
-turns it from something that the browser finds nice to read into something
-_humans_ find nice to read.
+[http://www.metmuseum.org](http://www.metmuseum.org). To understand the
+difference hinges on that special verb _render_. Your _client's_ browser
+_renders_ the "raw" HTML and turns it into something _humans_ find nice to
+read.
+
+And this is the essential overview of how the web works!
 
 ## Conclusion
 
