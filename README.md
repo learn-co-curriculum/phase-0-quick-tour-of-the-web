@@ -29,13 +29,13 @@ works.
 
 The internet, in its most general formulation, is a network of networks. In
 history it was likely that a specific team in an office might network several
-computers together. Due to technical and engineering limitations, network cable
+computers together. Due to technical and engineering limitations, network cables
 wouldn't let computers be more than a few dozen meters apart.
 
 Eventually improved technology allowed small networks to "inter"-"network"
 their with each other. This was typically called a "Local Area Network" or LAN.
-Eventually we found technology that made internetworking LANs possible, they
-could be made into "Wide Area Networks" or WANs. Technology for internetworking
+Eventually we found technology that made internet working LANs possible, they
+could be made into "Wide Area Networks" or WANs. Technology for internet working
 WANs was difficult and slow to develop, but eventually a backbone called "The
 Internet" was created which encompassed all of its constituent WANs and their
 constituent LANs. This abstract idea bore the name **The Internet**.
@@ -46,7 +46,7 @@ Here in the first quarter of the 21st century, however, "internet" has ceased
 to be a proper noun as the idea of "internets (of things, of cryptocurrencies)"
 has supplanted the idea of a singular "The Internet."
 
-For purposes of this tutorial "the internet" refers to the global network which
+For purposes of this tutorial, "the internet" refers to the global network which
 allows (effectively) any computer to find any other computer.
 
 ## Define "server" role
@@ -54,7 +54,7 @@ allows (effectively) any computer to find any other computer.
 All machines on the internet are computers. For ease of discussion, we're going
 to discuss them in two "roles:" client and server. Historically a "server"
 would be a larger, more powerful computer with more memory, bigger hard drives,
-and more computer chips. But today "server" roles can be handled quite well by
+and more computer chips. But today, "server" roles can be handled quite well by
 Arduino devices no bigger than a credit card! Nevertheless, in diagrams and on
 whiteboards they tend to be drawn as large "tower-style" computers.
 
@@ -62,7 +62,7 @@ Regardless of its size, a "server" has the responsibility of arranging the data
 that is presented to the "client." It's because of this "arranging" being
 computationally demanding that servers have tended to have extra resources.
 
-Historically computers were very expensive and well-appointed servers were
+Historically, computers were very expensive and well-appointed servers were
 very, very expensive. As such, when possible, it was more economical for
 servers to do heavy processing and for the clients to request updates.
 
@@ -98,7 +98,7 @@ client computer, determine its revenue for the day and which departments
 contributed to that number, but on a cheap client machine that process would be
 s..l...o.....w &mdash; like trying to play a PS4 game on an iPhone!
 
-_However_ if each client computer merely logged its actions to the server by
+_However_, if each client computer merely logged its actions to the server by
 sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
 their IT architecture on this model known as "the client / server" model.
@@ -122,7 +122,7 @@ expresses this wish by transmitting a message that looks like:
 Here it asks `flatironschool.com` for an HTML file called `index`. We'll
 explore this _much_ more in subsequent lessons!
 
-In return, the _server_ returns...HTML that's contained in the `index.html`
+In return, the _server_ returns... HTML that's contained in the `index.html`
 file.
 
 ## State What Type Of Content Defines What's Seen In Browsers
@@ -140,7 +140,8 @@ _client_. The client then receives the raw HTML. It looks something like this:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="title" content="Home" />
         <meta name="keywords" content="Metropolitan Museum, Met, Metropolitan Museum of Art, Met Museum, Metropolitan" />
-        <meta name="description" content="The Metropolitan Museum of
+        <meta name="description" content="The Metropolitan Museum of Art is a...">
+        ...
 ```
 
 Obviously, this is _not_ what you see when you visit
@@ -153,16 +154,16 @@ And this is the essential overview of how the web works!
 
 ## Conclusion
 
-In conclusion we've talk about the history of the word internet and how it
+In conclusion, we've talk about the history of the word _internet_ and how it
 interlinks computers fulfilling _client_ and _server_ roles. We've identified
 that _client_ machines use web browsers to make _requests_ of the _server_,
 according to the HTTP standard, and _server_ return HTML data, stored on their
 hard drives in files _back_ to the requesting _client_. The _client_ machine,
-running browser software then convents that raw HTML data into a _rendered_
+running browser software, then converts that raw HTML data into a _rendered_
 format which is what you experience as a web page.
 
 As a summarizing video, we've provided the following video of our dean, Avi
-Flombaum, will giving  a short introduction to the web. If you are only
+Flombaum, giving a short introduction to the web. If you are only
 interested in building web pages, you can stop at 3:48; if you are studying a
 web programming technology e.g. Ruby, please watch the entire video.
 
