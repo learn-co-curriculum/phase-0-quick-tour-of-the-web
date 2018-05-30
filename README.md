@@ -32,13 +32,16 @@ history it was likely that a specific team in an office might network several
 computers together. Due to technical and engineering limitations, network cables
 wouldn't let computers be more than a few dozen meters apart.
 
-Eventually improved technology allowed small networks to "inter"-"network"
-their with each other. This was typically called a "Local Area Network" or LAN.
-Eventually we found technology that made internet working LANs possible, they
-could be made into "Wide Area Networks" or WANs. Technology for internet working
-WANs was difficult and slow to develop, but eventually a backbone called "The
-Internet" was created which encompassed all of its constituent WANs and their
-constituent LANs. This abstract idea bore the name **The Internet**.
+Eventually, improved technology allowed small networks to "inter"-"network"
+their with each other. This discipline was called "internetworking." By the
+technology and knowledge of "internetworking," these small local networks (or,
+"local area networks" or LANs) became "internetworked" into "Wide Area
+Networks" or WANs.  The natural next dream was to "internetwork" WANs into some
+sort of "larger" inter-network, something city-scale, country-scale, or
+global-scale.  Technology for "inter-networking" WANs was difficult and slow to
+develop, but eventually produced a backbone "internetwork" "**The**
+Internetwork" which encompassed all of its constituent WANs and their
+constituent LANs. Eventually usage coalesced around the work "The Internet."
 
 It was upon this "The Internet" that "The Web" was built.
 
