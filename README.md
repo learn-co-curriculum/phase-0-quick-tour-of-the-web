@@ -3,8 +3,7 @@
 ## Problem Statement
 
 Welcome to the web, the largest canvas in the world. Roughly 40% of the world's
-population has access to the web, and dedicated people are at work every day to
-grow that percentage (that could be you!). Never before has it been possible to
+population has access to the web. Never before has it been possible to
 reach so many across such vast distances!
 
 To orient you in these first steps of your study of HTML and web programming we
@@ -14,7 +13,7 @@ different contexts and places over the years, it's possible that you've never
 built a cohesive model in your mind that interlinks these problems together.
 This lesson hopes to help stitch that all together.
 
-In this lesson we'll go over the essential characteristics of how the web
+In this lesson we'll go over the essential steps in how the web
 works.
 
 ## Objectives
@@ -27,30 +26,28 @@ works.
 
 ## Define "internet"
 
-The internet, in its most general formulation, is a network of networks. In
-history it was likely that a specific team in an office might network several
-computers together. Due to technical and engineering limitations, network cables
-wouldn't let computers be more than a few dozen meters apart.
+When people share information, great things can happen. Politics can change.
+Our place in the universe can change. Disease can be conquered. The ability to
+share knowledge is _power_. Since the 80's computers have become our
+co-thinkers. In the 80's and 90's engineers looked for ways to have computers
+share information.  Technical limits meant networked computers had to be within
+the same office.
 
-Eventually, improved technology allowed small networks to "inter"-"network"
-their with each other. This discipline was called "internetworking." By the
-technology and knowledge of "internetworking," these small local networks (or,
-"local area networks" or LANs) became "internetworked" into "Wide Area
-Networks" or WANs.  The natural next dream was to "internetwork" WANs into some
-sort of "larger" inter-network, something city-scale, country-scale, or
-global-scale.  Technology for "inter-networking" WANs was difficult and slow to
-develop, but eventually produced a backbone "internetwork" "**The**
-Internetwork" which encompassed all of its constituent WANs and their
-constituent LANs. Eventually usage coalesced around the work "The Internet."
+Eventually, improvements allowed small networks to "inter"-"network" their with
+each other. This discipline was called "internetworking." By the technology and
+knowledge of "internetworking," these small local networks (or, "local area
+networks" or LANs) became "internetworked" into "Wide Area Networks" or WANs.
+The natural next dream was to "internetwork" WANs into some sort of "larger"
+inter-network, something city-scale, country-scale, or global-scale.
+Technology for "inter-networking" WANs was difficult and slow to develop, but
+eventually produced a backbone "internetwork" "**The** Internetwork" which
+encompassed all of its constituent WANs and their constituent LANs. Eventually
+usage coalesced around the work "The Internet."
 
 It was upon this "The Internet" that "The Web" was built.
 
-Here in the first quarter of the 21st century, however, "internet" has ceased
-to be a proper noun as the idea of "internets (of things, of cryptocurrencies)"
-has supplanted the idea of a singular "The Internet."
-
-For purposes of this tutorial, "the internet" refers to the global network which
-allows (effectively) any computer to find any other computer.
+**Note:** For many reasons, style guides no longer capitalize "internet" or
+"web." The global network linking computers globally is "the internet."
 
 ## Define "server" role
 
@@ -185,3 +182,4 @@ web programming technology e.g. Ruby, please watch the entire video.
 
 [TWINS]: https://www.youtube.com/watch?v=7AS96jRnquI
 [Slides]: https://docs.google.com/presentation/d/1m6SPR13MdfF7YRhfx7HtvkOmFnrRyVQOEFgWhI8Bc0I/edit?usp=sharing
+
