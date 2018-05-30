@@ -157,7 +157,7 @@ And this is the essential overview of how the web works!
 
 ## Conclusion
 
-In conclusion, we've talk about the history of the word _internet_ and how it
+In conclusion, we've talked about the history of the word _internet_ and how it
 interlinks computers fulfilling _client_ and _server_ roles. We've identified
 that _client_ machines use web browsers to make _requests_ of the _server_,
 according to the HTTP standard, and _server_ return HTML data, stored on their
