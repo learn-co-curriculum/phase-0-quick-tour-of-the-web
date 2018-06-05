@@ -27,10 +27,9 @@ works.
 
 When people share information, great things can happen. Politics can change.
 Our place in the universe can change. Disease can be conquered. The ability to
-share knowledge is _power_. Since the 80's computers have become our
-co-thinkers. In the 80's and 90's engineers looked for ways to have computers
-share information.  Technical limits meant networked computers had to be within
-the same office.
+share knowledge is _power_. In the 80's and 90's engineers looked for ways to 
+have computers share information.  Technical limits meant networked computers 
+had to be within the same office.
 
 Eventually, improvements allowed small networks to "inter"-"network" their with
 each other. This discipline was called "internetworking." By the technology and
