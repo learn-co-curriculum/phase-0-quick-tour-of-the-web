@@ -10,7 +10,7 @@ To orient you in these first steps of your study of HTML and web programming we
 want to give a broad overview of the web and how it works in the broadest
 terms. While you might have heard "web," and "internet" and "server" in many
 different contexts and places over the years, it's possible that you've never
-built a cohesive model in your mind that interlinks these problems together.
+built a cohesive model in your mind that interlinks these concepts together.
 This lesson hopes to help stitch that all together.
 
 In this lesson we'll go over the essential steps in how the web
