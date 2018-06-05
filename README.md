@@ -101,9 +101,9 @@ sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
 their IT architecture on this model known as "the client / server" model.
 
-## State Which Role Possesses The Data That Browsers Display
+## Explain Which Role Possesses The Data That Browsers Display
 
-The web was developed under a client server model. Home PCs were relatively
+The web was developed with a client server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
 were installed on high-power _servers_. Thus web _clients_ running _browser_
 software were created that would send an _request_ for a web page and the
@@ -123,7 +123,7 @@ explore this _much_ more in subsequent lessons!
 In return, the _server_ returns... HTML that's contained in the `index.html`
 file.
 
-## State What Type Of Content Defines What's Seen In Browsers
+## Explain What Type Of Content Defines What's Seen In Browsers
 
 Having been told which file on _its_ hard drive to consult, the web _server_
 takes the contents of a file, pushes them across the internet _back_ to the
@@ -143,17 +143,17 @@ _client_. The client then receives the raw HTML. It looks something like this:
 ```
 
 Obviously, this is _not_ what you see when you visit
-[http://www.metmuseum.org](http://www.metmuseum.org). To understand the
+[http://www.metmuseum.org](http://www.metmuseum.org). The
 difference hinges on that special verb _render_. Your _client's_ browser
 _renders_ the "raw" HTML and turns it into something _humans_ find nice to
 read.
 
-And this is the essential overview of how the web works!
+And this is the essence of how the web works!
 
 ## Conclusion
 
 In conclusion, we've talked about the history of the word _internet_ and how it
-interlinks computers fulfilling _client_ and _server_ roles. We've identified
+connects computers fulfilling _client_ and _server_ roles. We've identified
 that _client_ machines use web browsers to make _requests_ of the _server_,
 according to the HTTP standard, and _server_ return HTML data, stored on their
 hard drives in files _back_ to the requesting _client_. The _client_ machine,
