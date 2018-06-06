@@ -10,8 +10,7 @@ To orient you in these first steps of your study of HTML and web programming we
 want to give a broad overview of the web and how it works in the broadest
 terms. While you might have heard "web," and "internet" and "server" in many
 different contexts and places over the years, it's possible that you've never
-built a cohesive model in your mind that interlinks these problems together.
-This lesson hopes to help stitch that all together.
+built a cohesive model in your mind that connects those concepts.
 
 In this lesson we'll go over the essential steps in how the web
 works.
@@ -21,17 +20,16 @@ works.
 1. Define "internet"
 2. Define "server" role
 3. Define "client" role
-4. State which role possesses the data that browsers display
-5. State what type of content defines what's seen in browsers
+4. Explain which role possesses the data that browsers display
+5. Explain what type of content defines what's seen in browsers
 
 ## Define "internet"
 
 When people share information, great things can happen. Politics can change.
 Our place in the universe can change. Disease can be conquered. The ability to
-share knowledge is _power_. Since the 80's computers have become our
-co-thinkers. In the 80's and 90's engineers looked for ways to have computers
-share information.  Technical limits meant networked computers had to be within
-the same office.
+share knowledge is _power_. In the earliest days of computing, engineers looked 
+for ways to have computers share information. Technical limits meant networked 
+computers had to be within the same office.
 
 Eventually, improvements allowed small networks to "inter"-"network" their with
 each other. This discipline was called "internetworking." By the technology and
@@ -103,9 +101,9 @@ sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
 their IT architecture on this model known as "the client / server" model.
 
-## State Which Role Possesses The Data That Browsers Display
+## Explain Which Role Possesses The Data That Browsers Display
 
-The web was developed under a client server model. Home PCs were relatively
+The web was developed with a client server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
 were installed on high-power _servers_. Thus web _clients_ running _browser_
 software were created that would send an _request_ for a web page and the
@@ -125,7 +123,7 @@ explore this _much_ more in subsequent lessons!
 In return, the _server_ returns... HTML that's contained in the `index.html`
 file.
 
-## State What Type Of Content Defines What's Seen In Browsers
+## Explain What Type Of Content Defines What's Seen In Browsers
 
 Having been told which file on _its_ hard drive to consult, the web _server_
 takes the contents of a file, pushes them across the internet _back_ to the
@@ -145,17 +143,17 @@ _client_. The client then receives the raw HTML. It looks something like this:
 ```
 
 Obviously, this is _not_ what you see when you visit
-[http://www.metmuseum.org](http://www.metmuseum.org). To understand the
+[http://www.metmuseum.org](http://www.metmuseum.org). The
 difference hinges on that special verb _render_. Your _client's_ browser
 _renders_ the "raw" HTML and turns it into something _humans_ find nice to
 read.
 
-And this is the essential overview of how the web works!
+And this is the essence of how the web works!
 
 ## Conclusion
 
 In conclusion, we've talked about the history of the word _internet_ and how it
-interlinks computers fulfilling _client_ and _server_ roles. We've identified
+connects computers fulfilling _client_ and _server_ roles. We've identified
 that _client_ machines use web browsers to make _requests_ of the _server_,
 according to the HTTP standard, and _server_ return HTML data, stored on their
 hard drives in files _back_ to the requesting _client_. The _client_ machine,
