@@ -103,7 +103,7 @@ their IT architecture on this model known as "the client / server" model.
 
 ## Explain Which Role Possesses The Data That Browsers Display
 
-The web was developed with a client server model. Home PCs were relatively
+The web was developed with a client / server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
 were installed on high-power _servers_. Thus web _clients_ running _browser_
 software were created that would send an _request_ for a web page and the
