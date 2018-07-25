@@ -38,9 +38,9 @@ networks" or LANs) became "internetworked" into "Wide Area Networks" or WANs.
 The natural next dream was to "internetwork" WANs into some sort of "larger"
 inter-network, something city-scale, country-scale, or global-scale.
 Technology for "inter-networking" WANs was difficult and slow to develop, but
-eventually produced a backbone "internetwork" "**The** Internetwork" which
+eventually produced a backbone internetwork, "**The Internet**work" which
 encompassed all of its constituent WANs and their constituent LANs. Eventually
-usage coalesced around the work "The Internet."
+in common usage it became called "The Internet."
 
 It was upon this "The Internet" that "The Web" was built.
 
