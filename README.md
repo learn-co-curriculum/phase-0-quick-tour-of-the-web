@@ -106,7 +106,7 @@ their IT architecture on this model known as "the client / server" model.
 The web was developed with a client / server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
 were installed on high-power _servers_. Thus web _clients_ running _browser_
-software were created that would send an _request_ for a web page and the
+software were created that would send a _request_ for a web page and the
 server would return the web page.
 
 The specification on how _clients_ and _servers_ interact is called HTTP
