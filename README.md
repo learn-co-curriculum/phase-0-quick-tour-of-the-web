@@ -1,6 +1,14 @@
 # A Quick Tour Of The Web
 
-## Problem Statement
+## Learning Goals
+
+- Define "internet"
+- Define "server" role
+- Define "client" role
+- Identify which role possesses the data that browsers display
+- Identify what type of content defines what's seen in browsers
+
+## Introduction
 
 Welcome to the web, the largest canvas in the world. Roughly 40% of the world's
 population has access to the web. Never before has it been possible to
@@ -12,16 +20,8 @@ terms. While you might have heard "web," and "internet" and "server" in many
 different contexts and places over the years, it's possible that you've never
 built a cohesive model in your mind that connects those concepts.
 
-In this lesson we'll go over the essential steps in how the web
+In this lesson, we'll go over the essential steps in how the web
 works.
-
-## Objectives
-
-1. Define "internet"
-2. Define "server" role
-3. Define "client" role
-4. Explain which role possesses the data that browsers display
-5. Explain what type of content defines what's seen in browsers
 
 ## Define "internet"
 
@@ -31,23 +31,23 @@ share knowledge is _power_. In the earliest days of computing, engineers looked
 for ways to have computers share information. Technical limits meant networked 
 computers had to be within the same office.
 
-Eventually, improvements allowed small networks to "inter"-"network" their with
+Eventually, improvements allowed small networks to "inter"-"network" with
 each other. This discipline was called "internetworking." By the technology and
 knowledge of "internetworking," these small local networks (or, "local area
 networks" or LANs) became "internetworked" into "Wide Area Networks" or WANs.
 The natural next dream was to "internetwork" WANs into some sort of "larger"
-inter-network, something city-scale, country-scale, or global-scale.
+inter-network, something city-scale, country-scale, or global scale.
 Technology for "inter-networking" WANs was difficult and slow to develop, but
 eventually produced a backbone internetwork, "**The Internet**work" which
-encompassed all of its constituent WANs and their constituent LANs. Eventually
-in common usage it became called "The Internet."
+encompassed all of its constituent WANs and their constituent LANs. Eventually,
+in common usage, it became called "The Internet."
 
 It was upon this "The Internet" that "The Web" was built.
 
 **Note:** For many reasons, style guides no longer capitalize "internet" or
 "web." The global network linking computers globally is "the internet."
 
-## Define "server" role
+## Define "server" Role
 
 All machines on the internet are computers. For ease of discussion, we're going
 to discuss them in two "roles:" client and server. Historically a "server"
@@ -64,7 +64,7 @@ Historically, computers were very expensive and well-appointed servers were
 very, very expensive. As such, when possible, it was more economical for
 servers to do heavy processing and for the clients to request updates.
 
-## Define "client" role
+## Define "client" Role
 
 A computer fulfilling a client role has the responsibility of presenting the
 data that is sent from the server. Historically, these machines could be more
@@ -76,9 +76,9 @@ that's commonly used is "render" as in, "The client _renders_ data provided by
 the server." That is, it only displays the server's data and any change to the
 data has to be done _by the server_, caused by a _request_ from the _client_.
 
-## Client / Server Example
+## Client/Server Example
 
-Let's take a moment to consider client / server in a common scenario: the
+Let's take a moment to consider client/server in a common scenario: the
 supermarket.
 
 If you ask the cashier for the price of a bottle of water, they can look it up
@@ -99,11 +99,11 @@ s..l...o.....w &mdash; like trying to play a PS4 game on an iPhone!
 _However_, if each client computer merely logged its actions to the server by
 sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
-their IT architecture on this model known as "the client / server" model.
+their IT architecture on this model, known as "the client/server" model.
 
-## Explain Which Role Possesses The Data That Browsers Display
+## Identify Which Role Possesses the Data That Browsers Display
 
-The web was developed with a client / server model. Home PCs were relatively
+The web was developed with a client/server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
 were installed on high-power _servers_. Thus web _clients_ running _browser_
 software were created that would send a _request_ for a web page and the
@@ -111,7 +111,7 @@ server would return the web page.
 
 The specification on how _clients_ and _servers_ interact is called HTTP
 (HyperText Transfer Protocol). This is why URLs start with `http://`: you're
-telling the browser: "Browser, act like a client and use the HTTP standard to
+telling the browser: "Browser, act as a client and use the HTTP standard to
 talk to `flatironschool.com` and find a file called `index.html`." The browser
 expresses this wish by transmitting a message that looks like:
 
@@ -123,7 +123,7 @@ explore this _much_ more in subsequent lessons!
 In return, the _server_ returns... HTML that's contained in the `index.html`
 file.
 
-## Explain What Type Of Content Defines What's Seen In Browsers
+## Identify What Type of Content Defines What's Seen in Browsers
 
 Having been told which file on _its_ hard drive to consult, the web _server_
 takes the contents of a file, pushes them across the internet _back_ to the
@@ -180,4 +180,3 @@ web programming technology e.g. Ruby, please watch the entire video.
 
 [TWINS]: https://www.youtube.com/watch?v=7AS96jRnquI
 [Slides]: https://docs.google.com/presentation/d/1m6SPR13MdfF7YRhfx7HtvkOmFnrRyVQOEFgWhI8Bc0I/edit?usp=sharing
-
