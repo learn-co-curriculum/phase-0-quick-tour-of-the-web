@@ -10,11 +10,11 @@
 
 ## Introduction
 
-![Welcome to the Web!](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10A.png)
-
 Welcome to the web, the largest canvas in the world. Roughly 40% of the world's
 population has access to the web. Never before has it been possible to
 reach so many across such vast distances!
+
+![Welcome to the Web!](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10A.png)
 
 To orient you in these first steps of your study of HTML and web programming we
 want to give a broad overview of the web and how it works in the broadest
@@ -49,7 +49,7 @@ in common usage, it became called "The Internet."
 
 ![The internet](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10B.png)
 
-It was upon this "The Internet" that "The Web" was built.
+It was upon _this_ "The Internet" that "The Web" was built.
 
 **Note:** For many reasons, style guides no longer capitalize "internet" or
 "web." The global network linking computers globally is "the internet."
