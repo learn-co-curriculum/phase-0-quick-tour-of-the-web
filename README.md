@@ -14,6 +14,8 @@ Welcome to the web, the largest canvas in the world. Roughly 40% of the world's
 population has access to the web. Never before has it been possible to
 reach so many across such vast distances!
 
+![Welcome to the Web!](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10A.png)
+
 To orient you in these first steps of your study of HTML and web programming we
 want to give a broad overview of the web and how it works in the broadest
 terms. While you might have heard "web," and "internet" and "server" in many
@@ -35,6 +37,9 @@ Eventually, improvements allowed small networks to "inter"-"network" with
 each other. This discipline was called "internetworking." By the technology and
 knowledge of "internetworking," these small local networks (or, "local area
 networks" or LANs) became "internetworked" into "Wide Area Networks" or WANs.
+
+![Visual Internet](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_18_VisualInternet.png)
+
 The natural next dream was to "internetwork" WANs into some sort of "larger"
 inter-network, something city-scale, country-scale, or global scale.
 Technology for "inter-networking" WANs was difficult and slow to develop, but
@@ -42,7 +47,9 @@ eventually produced a backbone internetwork, "**The Internet**work" which
 encompassed all of its constituent WANs and their constituent LANs. Eventually,
 in common usage, it became called "The Internet."
 
-It was upon this "The Internet" that "The Web" was built.
+![The internet](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10B.png)
+
+It was upon _this_ "The Internet" that "The Web" was built.
 
 **Note:** For many reasons, style guides no longer capitalize "internet" or
 "web." The global network linking computers globally is "the internet."
@@ -76,6 +83,8 @@ that's commonly used is "render" as in, "The client _renders_ data provided by
 the server." That is, it only displays the server's data and any change to the
 data has to be done _by the server_, caused by a _request_ from the _client_.
 
+![Client/Server Role](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_19_BasicClientServer.png)
+
 ## Client/Server Example
 
 Let's take a moment to consider client/server in a common scenario: the
@@ -101,6 +110,8 @@ sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
 their IT architecture on this model, known as "the client/server" model.
 
+![Client/Server Illustration](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10C_ClientServerExample.png)
+
 ## Identify Which Role Possesses the Data That Browsers Display
 
 The web was developed with a client/server model. Home PCs were relatively
@@ -116,6 +127,7 @@ talk to `flatironschool.com` and find a file called `index.html`." The browser
 expresses this wish by transmitting a message that looks like:
 
 `GET flatironschool.com /index.html`
+![Browser as Client Illustration](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_10D_BrowserClientInteraction.png)
 
 Here it asks `flatironschool.com` for an HTML file called `index`. We'll
 explore this _much_ more in subsequent lessons!
