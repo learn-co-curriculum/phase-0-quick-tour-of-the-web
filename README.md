@@ -120,6 +120,8 @@ were installed on high-power _servers_. Thus web _clients_ running _browser_
 software were created that would send a _request_ for a web page and the
 server would return the web page.
 
+![Web Application Stack](https://curriculum-content.s3.amazonaws.com/html-basics/tour-of-the-web/Image_81_WebAppStack.png)
+
 The specification on how _clients_ and _servers_ interact is called HTTP
 (HyperText Transfer Protocol). This is why URLs start with `http://`: you're
 telling the browser: "Browser, act as a client and use the HTTP standard to
