@@ -177,7 +177,7 @@ format which is what you experience as a web page.
 As a summarizing video, we've provided the following video of our dean, Avi
 Flombaum, giving a short introduction to the web. If you are only
 interested in building web pages, you can stop at 3:48; if you are studying a
-web programming technology e.g. Ruby, please watch the entire video.
+web programming technology e.g. Ruby or JavaScript, we recommend watching the entire video.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7AS96jRnquI?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
