@@ -169,12 +169,12 @@ And this is the essence of how the web works!
 In conclusion, we've talked about the history of the word _internet_ and how it
 connects computers fulfilling _client_ and _server_ roles. We've identified
 that _client_ machines use web browsers to make _requests_ of the _server_,
-according to the HTTP standard, and _server_ return HTML data, stored on their
+according to the HTTP standard, and the _server_ returns HTML data, stored on their
 hard drives in files _back_ to the requesting _client_. The _client_ machine,
 running browser software, then converts that raw HTML data into a _rendered_
 format which is what you experience as a web page.
 
-As a summarizing video, we've provided the following video of our dean, Avi
+As a summary, we've provided the following video of our dean, Avi
 Flombaum, giving a short introduction to the web. If you are only
 interested in building web pages, you can stop at 3:48; if you are studying a
 web programming technology e.g. Ruby or JavaScript, we recommend watching the entire video.
