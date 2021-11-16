@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Welcome to the web, the largest canvas in the world. Roughly 40% of the world's
+Welcome to the web, the largest canvas in the world. Over half of the world's
 population has access to the web. Never before has it been possible to
 reach so many across such vast distances!
 
@@ -103,7 +103,7 @@ Now, at the end of the sales day, the management team would like to do some
 analytics about how profitable they were that day. They _could_ go to each
 client computer, determine its revenue for the day and which departments
 contributed to that number, but on a cheap client machine that process would be
-s..l...o.....w — like trying to play a PS4 game on an iPhone!
+s..l...o.....w — like trying to play a PS5 game on an iPhone!
 
 _However_, if each client computer merely logged its actions to the server by
 sending requests, the management could ask that high-power machine to print out
