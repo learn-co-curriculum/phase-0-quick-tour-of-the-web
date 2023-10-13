@@ -178,9 +178,7 @@ browser software, then converts that raw HTML data into a _rendered_ format
 which is what you experience as a web page.
 
 As a summary, we've provided the following video that gives an introduction to
-the web. If you are only interested in building web pages, you can stop at 3:48;
-if you are studying a web programming technology e.g. Ruby or JavaScript, we
-recommend watching the entire video.
+the web.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7AS96jRnquI?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
